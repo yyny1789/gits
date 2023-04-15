@@ -16,6 +16,12 @@ class ViewController: UIViewController {
         return view
     }()
     
+    var detailBtn: UIButton = {
+        let view = UIButton(type: .custom)
+        view.setTitle("查看全部", for: .normal)
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(blankView)
