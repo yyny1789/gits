@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var blankView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.white
+        view.alpha = 1
         return view
     }()
     
