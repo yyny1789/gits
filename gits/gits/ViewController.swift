@@ -12,6 +12,14 @@ class ViewController: UIViewController {
     var blankView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.white
+        view.alpha = 0
+        return view
+    }()
+    
+    var detailBtn: UIButton = {
+        let view = UIButton(type: .custom)
+        view.setTitle("查看全部", for: .normal)
+        view.backgroundColor = UIColor.red
         return view
     }()
     
