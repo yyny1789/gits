@@ -26,19 +26,6 @@ class ViewController: UIViewController {
     var questionIconView: UIImageView = {
         let view = UIImageView()
         view.isUserInteractionEnabled = true
-        view.image = UIImage(named: "field_questionMarkIcon")
-        return view
-    }()
-    
-    var subTitleLabel: UILabel = {
-        let view = UILabel()
-        view.text = "不同退出方式及比例"
-        return view
-    }()
-    
-    var questionIconView: UIImageView = {
-        let view = UIImageView()
-        view.isUserInteractionEnabled = true
         view.image = UIImage(named: "field_questionMarkIcon111")
         return view
     }()
