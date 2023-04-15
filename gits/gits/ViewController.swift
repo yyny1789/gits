@@ -36,6 +36,19 @@ class ViewController: UIViewController {
         return view
     }()
     
+    var questionIconView: UIImageView = {
+        let view = UIImageView()
+        view.isUserInteractionEnabled = true
+        view.image = UIImage(named: "field_questionMarkIcon111")
+        return view
+    }()
+    
+    var subTitleLabel: UILabel = {
+        let view = UILabel()
+        view.text = "不同退出方式及比例123"
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(blankView)
